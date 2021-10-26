@@ -2,14 +2,30 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+
 h2{
     font-size: 30px;
 
 }
+
+
 .name-highlight{
     color: orange;
     font-size: 45px;
 }
+
+.hire-me{
+    background-color: rgb(162, 80, 221);
+    color: white;
+    padding: 7px;
+    font-size: medium;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+}
+
 
 .half-width{
     width: 40%;
@@ -18,28 +34,59 @@ h2{
     float: left;
     align-items: center;
 }
+
+
 .half-width img{
     width: 100%;
 }
 .another-half img{
     width: 100%;
 }
+
+
 .header{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-}
-section{
+    margin-right: 120px;
+    margin-left: 120px;
     height: 600px;
     padding-bottom: 100px;
 }
 
+
 .biography{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 600px;
+    padding-bottom: 100px;
+    
+}
+
+
+.download-cv{
+    background-color: palevioletred;
+    color: white;
+    padding: 7px;
+    font-size: medium;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+
+}
+
+.footer{
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 600px;
+    padding-bottom: 100px;
 }
 
 .work{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .another-half{
@@ -48,3 +95,30 @@ section{
     padding-left: 2%;
     float: left;
 }
+
+.last-footer{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    margin-top: -300px;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 350px;
+    padding-bottom: 100px;
+}
+
+.decoration{
+    background-color: rgb(182, 7, 94);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    
+}
+
+.copyright{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
