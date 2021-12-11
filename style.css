@@ -4,16 +4,12 @@ body{
 }
 
 
-h2{
-    font-size: 30px;
-
-}
-
 
 .name-highlight{
     color: orange;
     font-size: 45px;
 }
+
 
 .hire-me{
     background-color: rgb(162, 80, 221);
@@ -25,6 +21,25 @@ h2{
     padding-right: 25px;
     border: none;
 }
+
+
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+
+h2{
+    font-size: 30px;
+
+}
+
+
+
 
 
 .half-width{
@@ -44,14 +59,7 @@ h2{
 }
 
 
-.header{
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-    margin-right: 120px;
-    margin-left: 120px;
-    height: 600px;
-    padding-bottom: 100px;
-}
+
 
 
 .biography{
@@ -82,6 +90,8 @@ h2{
     margin-left: 120px;
     height: 600px;
     padding-bottom: 100px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
 }
 
 .work{
